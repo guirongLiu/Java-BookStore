@@ -5,6 +5,9 @@
   version="3.0"
   metadata-complete="true">
 
+  <welcome-file-list>
+    <welcome-file>BookList.jsp</welcome-file>
+  </welcome-file-list>
   <display-name>Archetype Created Web Application</display-name>
 
   <servlet>
