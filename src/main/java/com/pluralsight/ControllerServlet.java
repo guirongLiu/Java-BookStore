@@ -18,6 +18,7 @@ import javax.inject.Inject;
  * Servlet implementation class HelloWorld
  */
 
+@WebServlet(name = "ControllerServlet")
 public class ControllerServlet extends HttpServlet {
 		private static final long serialVersionUID = 1L;
 		private DBConnection dbConnection;
