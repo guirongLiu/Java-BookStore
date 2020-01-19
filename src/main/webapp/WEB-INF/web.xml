@@ -16,6 +16,10 @@
   </servlet>
   <servlet-mapping>
   	<servlet-name>ControllerServlet</servlet-name>
-  	<url-pattern>/*</url-pattern>
+  	<url-pattern>/admin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControllerServlet</servlet-name>
+  	<url-pattern>/new</url-pattern>
   </servlet-mapping>
 </web-app>
