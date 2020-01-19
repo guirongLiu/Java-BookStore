@@ -51,17 +51,17 @@ public class ControllerServlet extends HttpServlet {
 		try {
 			switch(action) {
 				case "/admin":
-					 showBookAdmin(request, response);
-           break;
-			  case "/new":
+					showBookAdmin(request, response);
+           				break;
+			  	case "/new":
 					showNewForm(request, response);
-          break;
+          				break;
 				case "/insert":
 					insertBook(request, response);
-          break;
-        default:
-				   listBooks(request, response);
-           break;
+          				break;
+        			default:
+				   	listBooks(request, response);
+           				break;
 			}
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
