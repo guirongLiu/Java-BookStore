@@ -16,10 +16,10 @@
   </servlet>
   <servlet-mapping>
   	<servlet-name>ControllerServlet</servlet-name>
-  	<url-pattern>/books/admin</url-pattern>
+  	<url-pattern>/admin</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
   	<servlet-name>ControllerServlet</servlet-name>
-  	<url-pattern>/books/new</url-pattern>
+  	<url-pattern>/new</url-pattern>
   </servlet-mapping>
 </web-app>
