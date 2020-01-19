@@ -16,6 +16,6 @@
   </servlet>
   <servlet-mapping>
   	<servlet-name>ControllerServlet</servlet-name>
-  	<url-pattern>/books/*</url-pattern>
+  	<url-pattern>/bookstore/*</url-pattern>
   </servlet-mapping>
 </web-app>
