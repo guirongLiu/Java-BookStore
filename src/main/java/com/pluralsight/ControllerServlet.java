@@ -14,11 +14,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.inject.Inject;
+
+import javax.servlet.annotation.WebServlet;
+
 /**
  * Servlet implementation class HelloWorld
  */
 
-@WebServlet(name = "ControllerServlet")
+@WebServlet("/admin")
 public class ControllerServlet extends HttpServlet {
 		private static final long serialVersionUID = 1L;
 		private DBConnection dbConnection;
