@@ -21,7 +21,7 @@ import javax.servlet.annotation.WebServlet;
  * Servlet implementation class HelloWorld
  */
 
-@WebServlet("/admin")
+//@WebServlet("/admin")
 public class ControllerServlet extends HttpServlet {
 		private static final long serialVersionUID = 1L;
 		private DBConnection dbConnection;
