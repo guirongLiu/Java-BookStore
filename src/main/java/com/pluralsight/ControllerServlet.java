@@ -50,8 +50,8 @@ public class ControllerServlet extends HttpServlet {
 	 */
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException  {
-		String action = request.getPathInfo();
-
+		String action = request.getServletPath();
+		
 		try {
 			switch(action) {
 				case "/admin":
