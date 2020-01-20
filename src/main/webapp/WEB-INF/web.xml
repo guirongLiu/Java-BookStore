@@ -22,4 +22,12 @@
   	<servlet-name>ControllerServlet</servlet-name>
   	<url-pattern>/new</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControllerServlet</servlet-name>
+  	<url-pattern>/insert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControllerServlet</servlet-name>
+  	<url-pattern>/list</url-pattern>
+  </servlet-mapping>
 </web-app>
