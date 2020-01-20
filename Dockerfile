@@ -1,4 +1,4 @@
-From tomcat
+From tomcat:7
 # Maintainer
 MAINTAINER "grl" 
 
